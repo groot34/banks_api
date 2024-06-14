@@ -18,4 +18,4 @@ The development process took approximately 3-4 hours.
 
 API Endpoints:
 All Bank Names: https://banks-api.onrender.com/api/banks
-Branch Information: https://banks-api.onrender.com/api/branches/(<branchname>)
+Branch Information: https://banks-api.onrender.com/api/branches/branchname
