@@ -14,6 +14,10 @@ connectDB();
 app.use(express.json());
 app.use('/api', bankRoutes);
 
+app.get('/', (req, res)=>{
+  res.json("Please go to api/branches/<branchNAME> or api/banks")
+})
+
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
